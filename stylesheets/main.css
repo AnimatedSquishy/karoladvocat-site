@@ -1,0 +1,156 @@
+.footer-law {
+  letter-spacing: 1px;
+  font-size: 0.95rem;
+}
+
+.footer-law h6 {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+}
+
+.footer-law a {
+  color: #212529;
+  text-decoration: none;
+}
+
+.footer-law a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .footer-law {
+    text-align: center;
+  }
+
+  .footer-law h6 {
+    margin-bottom: 0.5rem;
+  }
+}
+.carouselContainer .carousel-item {
+  height: 450px;
+}
+
+.carouselContainer .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.carouselContainer .carousel {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  .carouselContainer .carousel-item {
+    height: 260px;
+  }
+}
+.crop-top {
+  object-fit: cover;
+  object-position: 50% 15%; /* tweak vertical focus */
+}
+
+.text-outline {
+  color: #fff; /* text color */
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.carousel-caption h5,
+.carousel-caption p {
+  color: #fff; /* text color */
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+/* Carousel polish */
+.carouselContainer .carousel-item {
+  height: 450px;
+}
+@media (max-width: 767px) {
+  .carouselContainer .carousel-item {
+    height: 280px;
+  }
+}
+
+.carouselContainer .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carouselContainer .carousel {
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.carousel-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.15));
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.outlined-text {
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.85);
+}
+
+/* Section styling */
+.section-title {
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.trust-card,
+.about-card,
+.contact-card {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+.trust-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.35rem;
+}
+
+.service-card {
+  border-radius: 14px;
+}
+.service-card .card-body {
+  padding: 1.25rem;
+}
+
+/* Footer polish you already started */
+.footer-law {
+  font-size: 0.95rem;
+}
+.footer-law h6 {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+}
+.footer-law a {
+  color: #212529;
+  text-decoration: none;
+}
+.footer-law a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 575px) {
+  .footer-law {
+    text-align: center;
+  }
+  .footer-law .col-md-4 {
+    margin-bottom: 1.25rem;
+  }
+}

@@ -1,11 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
- <h1>HI</h1>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="/stylesheets/main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous" />
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Karyn Carroll</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Accueil</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">À propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="true">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- main content -->
+    <!-- trust bar -->
+    <section id="accueil" class="container my-5">
+      <div class="row g-3 text-center">
+        <div class="col-md-4">
+          <div class="trust-card p-4 h-100">
+            <div class="trust-title">Confidentialité</div>
+            <p class="text-muted mb-0">
+              Échanges traités avec discrétion et sérieux.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="trust-card p-4 h-100">
+            <div class="trust-title">Rigueur</div>
+            <p class="text-muted mb-0">
+              Analyse stratégique à chaque étape du dossier.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="trust-card p-4 h-100">
+            <div class="trust-title">Représentation</div>
+            <p class="text-muted mb-0">
+              Accompagnement et représentation devant les tribunaux.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services -->
+    <section id="services" class="container my-5">
+      <div class="row align-items-end mb-3">
+        <div class="col-md-8">
+          <h2 class="section-title mb-1">Services</h2>
+          <p class="text-muted mb-0">
+            Principaux domaines d’intervention en matière criminelle.
+          </p>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card service-card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="h6 fw-semibold">Accusations criminelles</h3>
+              <p class="text-muted mb-0">
+                Analyse du dossier, conseils, stratégie et représentation.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card service-card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="h6 fw-semibold">Enquête et droits</h3>
+              <p class="text-muted mb-0">
+                Protection des droits lors d’interrogatoires et procédures.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card service-card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="h6 fw-semibold">Tribunal</h3>
+              <p class="text-muted mb-0">
+                Représentation devant la cour, plaidoyers et audiences.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about + quick contact card -->
+    <section id="apropos" class="container my-5">
+      <div class="row g-4 align-items-stretch">
+        <div class="col-lg-7">
+          <div class="about-card p-4 h-100">
+            <h2 class="section-title mb-2">À propos</h2>
+            <p class="text-muted">
+              Me Karyn Carroll, avocate criminaliste basée à Longueuil, offre
+              une représentation professionnelle et personnalisée. L’objectif :
+              protéger vos droits et vous accompagner avec rigueur à chaque
+              étape du processus.
+            </p>
+            <ul class="text-muted mb-0">
+              <li>Consultations confidentielles</li>
+              <li>Approche claire et structurée</li>
+              <li>Représentation à toutes les étapes</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-5" id="contact">
+          <div class="contact-card p-4 h-100">
+            <h2 class="section-title mb-3">Contact</h2>
+            <p class="mb-2">
+              <strong>Courriel:</strong>
+              <a href="mailto:K.carroll.avocate@gmail.com"
+                >K.carroll.avocate@gmail.com</a
+              >
+            </p>
+            <p class="mb-2">
+              <strong>Bureau:</strong>
+              <a href="tel:+14506465959">450 646-5959</a>
+            </p>
+            <p class="mb-3">
+              <strong>Cellulaire:</strong>
+              <a href="tel:+15147148052">514-714-8052</a>
+            </p>
+            <a class="btn btn-dark w-100 mb-2" href="tel:+14506465959"
+              >Appeler maintenant</a
+            >
+            <a
+              class="btn btn-outline-dark w-100"
+              href="mailto:K.carroll.avocate@gmail.com"
+              >Envoyer un courriel</a
+            >
+            <p class="small text-muted mt-3 mb-0">
+              Aucun avis juridique n’est donné par courriel. Contacter le
+              cabinet ne crée pas une relation avocat-client.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer-law bg-light border-top mt-5 py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <h6>Services</h6>
+            <ul class="list-unstyled">
+              <li>Criminal Defence</li>
+              <li>Legal Representation</li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <h6>Office</h6>
+            <p class="mb-0">Me Karyn Carroll</p>
+            <p class="mb-0">Avocate Criminaliste</p>
+            <a
+              href="https://www.google.com/maps?sca_esv=b04cb06c25fa1fe2&rlz=1C1VDKB_enCA1116CA1116&output=search&q=365+rue+St-Jean,+bureau+112+Longueuil,+QC,+J2H+2X7&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKphoBqpq5GBqkiyrjUAVIunsxjYuMhbuF_OttTn5E9_bAECJ8J8jI2vksRWZ48wRr-R2npRoqR0fjxpZCPwh8_Mk7JYlymdIXEZUSZEbVAsRl1PLt32z2WWdj_RsLNEwnLCSGWL7Fsi-rMsHTb3iqGzaC3x_iiwryN6Duqw5oWBV7alDH1mFzVMoWJ48GsfkLPBJe2Rg&entry=mc&ved=1t:200715&ictx=111"
+              class="mb-0">
+              365 rue St-Jean, bureau 112<br />
+              Longueuil, QC, J2H 2X7
+            </a>
+          </div>
+
+          <div class="col-md-4 mb-1">
+            <h6>Contact</h6>
+            <p class="mb-0">
+              <a href="mailto:K.carroll.avocate@gmail.com">
+                K.carroll.avocate@gmail.com
+              </a>
+            </p>
+            <p class="mb-0">
+              Bureau :
+              <a href="tel:+14506465959">450&nbsp;646-5959</a>
+            </p>
+            <p class="mb-0">
+              Cellulaire :
+              <a href="tel:+15147148052">514-714-8052</a>
+            </p>
+          </div>
+        </div>
+
+        <hr class="my-3" />
+
+        <p class="small text-muted mb-0">
+          No legal advice is provided via email. Contacting this office does not
+          create a lawyer-client relationship.
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
+  </body>
 </html>
